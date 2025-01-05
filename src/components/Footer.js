@@ -1,3 +1,8 @@
-export default function Footer(){
-    return <div className="py-4 bg-secondary text-center text-white">&copy; JVLcode 2024</div>
-}
+import React from "react";
+
+const Footer = () => {
+  const Year = new Date().getFullYear();
+  return <footer id="contact">&copy; MS Prakash {Year}</footer>;
+};
+
+export default Footer;
